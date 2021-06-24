@@ -1,0 +1,132 @@
+h1{
+    font: size 50px; ;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+h2{
+    font: bold 14px sans-serif;
+
+}
+cabecera,section,nav,article{
+    border:1px, solid black;
+    display: block;
+}
+body{
+    text-align: center;
+}
+.agrupar{
+    background-color: rgb(8, 110, 128);
+   
+    margin:auto;
+    
+}
+.cabecera{
+background:rgba(201, 239, 248, 0.911);
+border: 1px solid;
+padding:20px;
+}
+.cabera h1{
+    text-align: left;
+}
+
+.menu{
+background-color: rgb(243, 250, 250);
+text-align: left;
+
+}
+.menu li{
+    list-style: nome;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+    
+    
+
+}
+.seccion {
+  
+    margin: 20px;
+    width: 1000px;
+    border:1px solid black;
+    padding: 1px solid red;
+      
+
+}
+article{
+    background-color: rgb(179, 232, 245);
+    border:1px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+.container{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu1 li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu1 li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+.PRECIO{
+    height: 100%;
+    width: 200%;
+}
+
