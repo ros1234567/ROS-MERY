@@ -1,3 +1,14 @@
+.{
+    padding: 0px;
+    margin:0px;
+    font-family: century Gothic;
+
+}
+.home{
+    display:flex
+    min:widtn 250px;
+}
+
 h1{
     font: size 50px; ;
     font-family: sans-serif;
@@ -47,9 +58,9 @@ text-align: left;
 .seccion {
   
     margin: 20px;
-    width: 1000px;
+    width: auto;
     border:1px solid black;
-    padding: 1px solid red;
+    padding: 1px solid red
       
 
 }
